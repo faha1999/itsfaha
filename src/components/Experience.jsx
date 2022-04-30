@@ -13,39 +13,51 @@ const Experience = () => {
 
           <div className="content">
             <article className="details">
-              <BsPatchCheckFill />
-              <h4>HTML</h4>
-              <small className="text-light">90%</small>
+              <BsPatchCheckFill className="icon" />
+              <div>
+                <h4>HTML</h4>
+                <small className="text-light">90%</small>
+              </div>
             </article>
 
             <article className="details">
-              <BsPatchCheckFill />
-              <h4>CSS</h4>
-              <small className="text-light">90%</small>
+              <BsPatchCheckFill className="icon" />
+              <div>
+                <h4>CSS</h4>
+                <small className="text-light">90%</small>
+              </div>
             </article>
 
             <article className="details">
-              <BsPatchCheckFill />
-              <h4>Bootstrap 5</h4>
-              <small className="text-light">90%</small>
+              <BsPatchCheckFill className="icon" />
+              <div>
+                <h4>Bootstrap 5</h4>
+                <small className="text-light">90%</small>
+              </div>
             </article>
 
             <article className="details">
-              <BsPatchCheckFill />
-              <h4>SASS</h4>
-              <small className="text-light">90%</small>
+              <BsPatchCheckFill className="icon" />
+              <div>
+                <h4>SASS</h4>
+                <small className="text-light">90%</small>
+              </div>
             </article>
 
             <article className="details">
-              <BsPatchCheckFill />
-              <h4>JavaScript</h4>
-              <small className="text-light">90%</small>
+              <BsPatchCheckFill className="icon" />
+              <div>
+                <h4>JavaScript</h4>
+                <small className="text-light">90%</small>
+              </div>
             </article>
 
             <article className="details">
-              <BsPatchCheckFill />
-              <h4>REACT</h4>
-              <small className="text-light">90%</small>
+              <BsPatchCheckFill className="icon" />
+              <div>
+                <h4>REACT</h4>
+                <small className="text-light">90%</small>
+              </div>
             </article>
           </div>
         </div>
@@ -55,27 +67,43 @@ const Experience = () => {
 
           <div className="content">
             <article className="details">
-              <BsPatchCheckFill />
-              <h4>Photoshop</h4>
-              <small className="text-light">90%</small>
+              <BsPatchCheckFill className="icon" />
+              <div>
+                <h4>Photoshop</h4>
+                <small className="text-light">90%</small>
+              </div>
             </article>
 
             <article className="details">
-              <BsPatchCheckFill />
-              <h4>Lightroom</h4>
-              <small className="text-light">90%</small>
+              <BsPatchCheckFill className="icon" />
+              <div>
+                <h4>Lightroom</h4>
+                <small className="text-light">90%</small>
+              </div>
             </article>
 
             <article className="details">
-              <BsPatchCheckFill />
-              <h4>Illustrator</h4>
-              <small className="text-light">90%</small>
+              <BsPatchCheckFill className="icon" />
+              <div>
+                <h4>Illustrator</h4>
+                <small className="text-light">90%</small>
+              </div>
             </article>
 
             <article className="details">
-              <BsPatchCheckFill />
-              <h4>Figma</h4>
-              <small className="text-light">90%</small>
+              <BsPatchCheckFill className="icon" />
+              <div>
+                <h4>Figma</h4>
+                <small className="text-light">90%</small>
+              </div>
+            </article>
+
+            <article className="details">
+              <BsPatchCheckFill className="icon" />
+              <div>
+                <h4>Sketch</h4>
+                <small className="text-light">90%</small>
+              </div>
             </article>
           </div>
         </div>

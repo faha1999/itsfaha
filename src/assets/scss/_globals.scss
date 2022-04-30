@@ -108,17 +108,17 @@ section {
     width: var(--container-width-md);
   }
 
-  .section {
+  section {
     margin-top: 6rem;
   }
 }
 
-@media screen and (max-width: 600) {
+@media screen and (max-width: 600px) {
   .container {
     width: var(--container-width-sm);
   }
 
-  .section {
+  section {
     h2 {
       margin-bottom: 2rem;
     }
