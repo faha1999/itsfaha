@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 :root {
   --color-bg: #1f1f38;
@@ -15,4 +15,11 @@
   --transition: all 0.4s ease;
 
   --body-font: 'Poppins', sans-serif;
+}
+
+// media
+@media screen and (min-width: 1024px) {
+}
+
+@media screen and (max-width: 600) {
 }
