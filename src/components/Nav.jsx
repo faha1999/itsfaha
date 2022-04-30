@@ -1,7 +1,51 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { AiOutlineHome } from 'react-icons/ai';
+import { AiOutlineUser } from 'react-icons/ai';
+import { BiBookAdd } from 'react-icons/bi';
+import { RiServiceLine } from 'react-icons/ri';
+import { BiMessageAltDetail } from 'react-icons/bi';
 
 const Nav = () => {
-  return <div>Nav</div>;
+  const [activeNav, setActiveNav] = useState('#');
+  return (
+    <nav>
+      <a
+        href="#"
+        onClick={() => setActiveNav('#')}
+        className={activeNav === '#' ? 'active' : ''}
+      >
+        <AiOutlineHome />
+      </a>
+      <a
+        href="#about"
+        onClick={() => setActiveNav('#about')}
+        lassName={activeNav === '#about' ? 'active' : ''}
+      >
+        <AiOutlineUser />
+      </a>
+      <a
+        href="#experience"
+        onClick={() => setActiveNav('#experience')}
+        lassName={activeNav === '#experience' ? 'active' : ''}
+      >
+        <BiBookAdd />
+      </a>
+      <a
+        href="#services"
+        onClick={() => setActiveNav('#services')}
+        lassName={activeNav === '#services' ? 'active' : ''}
+      >
+        <RiServiceLine />
+      </a>
+      <a
+        href="#contact"
+        onClick={() => setActiveNav('#contact')}
+        lassName={activeNav === '#contact' ? 'active' : ''}
+      >
+        <BiMessageAltDetail />
+      </a>
+    </nav>
+  );
 };
 
 export default Nav;
