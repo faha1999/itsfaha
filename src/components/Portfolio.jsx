@@ -1,10 +1,5 @@
 import React from 'react';
-import Img1 from '../assets/images/portfolio1.jpg';
-import Img2 from '../assets/images/portfolio2.jpg';
-import Img3 from '../assets/images/portfolio3.jpg';
-import Img4 from '../assets/images/portfolio4.jpg';
-import Img5 from '../assets/images/portfolio5.png';
-import Img6 from '../assets/images/portfolio6.jpg';
+import portfolioData from './data/portfolioData';
 
 const Portfolio = () => {
   return (
@@ -13,7 +8,26 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio">
-        <article className="card">
+        {portfolioData.map(({ id, image, title, github, demo }) => {
+          return (
+            <article key={id} className="card">
+              <div className="image">
+                <img src={image} alt={title} />
+              </div>
+              <h3>{title}</h3>
+
+              <div className="view-btn">
+                <a href={github} className="btn">
+                  GitHUb
+                </a>
+                <a href={demo} className="btn btn-primary" target="_blank">
+                  Live demo
+                </a>
+              </div>
+            </article>
+          );
+        })}
+        {/* <article className="card">
           <div className="image">
             <img src={Img1} alt="Portfolio 1" />
           </div>
@@ -27,7 +41,7 @@ const Portfolio = () => {
               Live demo
             </a>
           </div>
-        </article>
+        </article> */}
       </div>
     </section>
   );
