@@ -18,12 +18,15 @@ const Portfolio = () => {
             <img src={Img1} alt="Portfolio 1" />
           </div>
           <h3>This is a portfolio item title</h3>
-          <a href="#" className="btn">
-            GitHUb
-          </a>
-          <a href="#" className="btn btn-primary" target="_blank">
-            Live demo
-          </a>
+
+          <div className="view-btn">
+            <a href="#" className="btn">
+              GitHUb
+            </a>
+            <a href="#" className="btn btn-primary" target="_blank">
+              Live demo
+            </a>
+          </div>
         </article>
       </div>
     </section>
