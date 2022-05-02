@@ -1,5 +1,6 @@
 .testimonials {
   width: 40%;
+  padding-bottom: 4rem;
 
   .testimonial {
     background: var(--color-bg-variant);
@@ -25,6 +26,13 @@
       margin: 0.8rem auto 0;
     }
   }
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet-active {
+  background: var(--color-primary);
+  height: 0.4rem;
+  width: 1rem;
+  border-radius: 0.3rem;
 }
 
 // media
