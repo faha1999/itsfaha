@@ -5,7 +5,7 @@ import HeaderSocial from './partials/HeaderSocial';
 
 const Header = () => {
   return (
-    <header>
+    <header id="home">
       <div className="container header">
         <h5>Hello I'm</h5>
         <h1>Kawsar Ahmed Fahad</h1>
