@@ -1,5 +1,5 @@
 header {
-  height: 100vh;
+  min-height: 58rem;
   padding-top: 7rem;
   overflow: hidden;
 
@@ -22,7 +22,7 @@ header {
       gap: 0.8rem;
       position: absolute;
       left: 0;
-      bottom: 3rem;
+      bottom: -34rem;
 
       &::after {
         content: '';
@@ -48,7 +48,7 @@ header {
     .scroll_down {
       position: absolute;
       right: -1.5rem;
-      bottom: 4rem;
+      bottom: -32rem;
       display: grid;
       row-gap: 2.25rem;
       justify-items: center;
@@ -69,17 +69,15 @@ header {
 // media
 @media screen and (max-width: 1024px) {
   header {
-    height: 68vh;
   }
 }
 
 @media screen and (max-width: 600px) {
   header {
-    height: 100vh;
-
-    .header_socials,
-    .scroll_down {
-      display: none;
+    .header {
+      .me {
+        width: 18rem;
+      }
     }
   }
 }
