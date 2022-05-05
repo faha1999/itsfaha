@@ -2,6 +2,7 @@ import React from 'react';
 import Button from './partials/Button';
 import Me from '../assets/images/me.png';
 import HeaderSocial from './partials/HeaderSocial';
+import { BsMouse } from 'react-icons/bs';
 
 const Header = () => {
   return (
@@ -19,7 +20,7 @@ const Header = () => {
         </div>
 
         <a href="#contact" className="scroll_down">
-          Scroll Down
+          <BsMouse className="icon" /> <span>Scroll Down</span>
         </a>
       </div>
     </header>
