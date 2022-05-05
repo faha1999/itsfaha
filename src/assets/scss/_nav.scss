@@ -21,11 +21,11 @@ nav {
     font-size: 1.1rem;
 
     &:hover {
-      background: rgba(0, 0, 0, 0.3);
+      background: linear-gradient(transparent, var(--color-primary));
     }
 
     &.active {
-      background: var(--color-primary);
+      background: linear-gradient(var(--color-primary), transparent);
       color: var(--color-bg);
     }
   }
