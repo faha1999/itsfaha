@@ -3,12 +3,10 @@ import Button from './partials/Button';
 import Me from '../assets/images/me.png';
 import HeaderSocial from './partials/HeaderSocial';
 import { BsMouse } from 'react-icons/bs';
-import Theme from './Theme';
 
 const Header = () => {
   return (
     <header id="home">
-      <Theme />
       <div className="container header">
         <h5>Hello I'm</h5>
         <h1>Kawsar Ahmed Fahad</h1>

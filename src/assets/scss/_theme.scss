@@ -1,13 +1,28 @@
 .theme {
-  padding-right: 8%;
+  display: flex;
+  justify-content: space-between;
+  border: 3px solid var(--color-primary);
+  border-radius: 1rem;
   position: fixed;
+  padding: 2px;
   cursor: pointer;
-  margin-bottom: 3rem;
-  margin-top: -4rem;
-  right: 8%;
+  width: 3.5rem;
+  float: left;
+  margin-top: 2rem;
+
+  & > * {
+    width: 1.2rem;
+    height: 1.2rem;
+    color: var(--color-white);
+  }
+
+  .button {
+    border-radius: 100%;
+    background: var(--color-primary);
+    position: absolute;
+  }
 
   .icon {
-    font-size: 1.5rem;
-    margin-left: 1rem;
+    color: black;
   }
 }
